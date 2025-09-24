@@ -1,0 +1,84 @@
+[2025-09-20 08:12:34] INFO Starting server on port 8080
+[2025-09-20 08:12:35] DEBUG Config loaded: env=production
+[2025-09-20 08:12:36] INFO Database connection established
+[2025-09-20 08:12:38] INFO User 'admin' logged in from 192.168.1.10
+[2025-09-20 08:12:40] WARNING Disk space low: 12% remaining
+[2025-09-20 08:12:42] INFO Request GET /api/products
+[2025-09-20 08:12:43] DEBUG Query executed: SELECT * FROM products
+[2025-09-20 08:12:44] INFO Response 200 OK [GET /api/products]
+[2025-09-20 08:12:45] INFO [+] Cache hit for key: homepage_cache
+[2025-09-20 08:12:47] ERROR Failed to send email to user@example.com
+[2025-09-20 08:12:48] DEBUG Retry queue updated
+[2025-09-20 08:12:50] INFO New order received: #ORD10293
+[2025-09-20 08:12:51] INFO Payment processed successfully for order #ORD10293
+[2025-09-20 08:12:52] DEBUG UserAgent: Mozilla/5.0 (Windows NT 10.0)
+[2025-09-20 08:12:53] WARNING Deprecated API used: /api/v1/items
+[2025-09-20 08:12:54] ERROR Database timeout after 5000ms
+[2025-09-20 08:12:56] INFO Session expired for user 'guest123'
+[2025-09-20 08:12:57] INFO Reconnecting to cache service...
+[2025-09-20 08:12:59] INFO [+] Cache service reconnected successfully
+[2025-09-20 08:13:00] DEBUG Memory usage: 71.23%
+[2025-09-20 08:13:02] INFO User 'paolo87' logged in
+[2025-09-20 08:13:04] WARNING Invalid login attempt for user 'admin'
+[2025-09-20 08:13:05] INFO API key validated for client 'mobile_app'
+[2025-09-20 08:13:06] DEBUG Internal API request: GET /internal/stats
+[2025-09-20 08:13:07] INFO Scheduled task 'clear_logs' completed
+[2025-09-20 08:13:09] INFO [+] Email queue: 12 pending
+[2025-09-20 08:13:10] ERROR SMTP connection failed on port 465
+[2025-09-20 08:13:12] INFO Retrying in 10 seconds...
+[2025-09-20 08:13:13] INFO GET /api/users?limit=50
+[2025-09-20 08:13:14] DEBUG Response time: 134ms
+[2025-09-20 08:13:15] WARNING API rate limit nearing threshold
+[2025-09-20 08:13:16] INFO [+] Feature flag enabled: NEW_UI
+[2025-09-20 08:13:17] ERROR File not found: /assets/logo.svg
+[2025-09-20 08:13:18] DEBUG User settings updated for 'maria_91'
+[2025-09-20 08:13:19] INFO Logout: user 'admin'
+[2025-09-20 08:13:20] INFO GET /api/cart
+[2025-09-20 08:13:21] DEBUG Session token: abc123xyz
+[2025-09-20 08:13:22] INFO Cart updated: 3 items
+[2025-09-20 08:13:23] WARNING Too many login attempts from IP 203.0.113.77
+[2025-09-20 08:13:25] INFO [+] Security alert sent to admin panel
+[2025-09-20 08:13:26] ERROR Unable to parse JSON payload
+[2025-09-20 08:13:27] INFO GET /api/status
+[2025-09-20 08:13:28] DEBUG System uptime: 14 hours
+[2025-09-20 08:13:29] INFO [+] System health check: OK
+[2025-09-20 08:13:30] INFO Backup completed at 08:13
+[2025-09-20 08:13:31] WARNING Unusual activity detected from user 'john.doe'
+[2025-09-20 08:13:32] INFO New user registered: 'gigi_the_gamer'
+[2025-09-20 08:13:33] ERROR API authentication failed for key: abcd1234
+[2025-09-20 08:13:34] DEBUG Auth retry count: 3
+[2025-09-20 08:13:35] INFO [+] Task queue empty
+[2025-09-20 08:13:36] INFO PUT /api/user/settings
+[2025-09-20 08:13:37] DEBUG Config diff: 2 changes
+[2025-09-20 08:13:38] INFO Email sent to paolo87@mail.com
+[2025-09-20 08:13:39] ERROR Email delivery failed (bounce)
+[2025-09-20 08:13:40] INFO [+] Cleanup job completed
+[2025-09-20 08:13:41] INFO GET /api/notifications
+[2025-09-20 08:13:42] DEBUG Push notification queue size: 4
+[2025-09-20 08:13:43] WARNING Slow API response (>1s)
+[2025-09-20 08:13:44] ERROR Missing required field in request body
+[2025-09-20 08:13:45] INFO [+] Rescheduling task for later execution
+[2025-09-20 08:13:46] INFO User 'guest456' signed up via mobile
+[2025-09-20 08:13:47] DEBUG Hash generated: 8fd7e93b1
+[2025-09-20 08:13:48] INFO GET /api/dashboard
+[2025-09-20 08:13:49] INFO [+] Refresh token issued
+[2025-09-20 08:13:50] WARNING User 'mario!' has weak password
+[2025-09-20 08:13:51] ERROR Service 'payment' is unreachable
+[2025-09-20 08:13:52] DEBUG Reconnect attempt #2
+[2025-09-20 08:13:53] INFO [+] Payment service restored
+[2025-09-20 08:13:54] INFO POST /api/payments
+[2025-09-20 08:13:55] DEBUG Payload: {amount: 15.99, currency: "EUR"}
+[2025-09-20 08:13:56] INFO [+] Payment processed for invoice #5561
+[2025-09-20 08:13:57] WARNING Retry limit reached for user 'bot_user'
+[2025-09-20 08:13:58] ERROR Unable to update profile image
+[2025-09-20 08:13:59] INFO [+] System load normal
+[2025-09-20 08:14:00] DEBUG Last login IP: 10.0.0.21
+[2025-09-20 08:14:01] INFO GET /api/logs
+[2025-09-20 08:14:02] DEBUG Log pagination params: limit=100, page=2
+[2025-09-20 08:14:03] INFO [+] Logs retrieved successfully
+[2025-09-20 08:14:04] WARNING Email quota at 95%
+[2025-09-20 08:14:05] ERROR Crash report saved to /var/log/crash_0920.log
+[2025-09-20 08:14:06] INFO Starting shutdown process...
+[2025-09-20 08:14:07] DEBUG Shutdown hook executed
+[2025-09-20 08:14:08] INFO Server stopped
+[2025-09-20 08:14:09] INFO [+] Cleanup complete. Bye!
