@@ -1,46 +1,54 @@
-# Analizzatore di Log
+# Log Analyzer
 
-Questo script Bash è progettato per analizzare file di log (.log) presenti in una directory specificata dall'utente. Fornisce un'interfaccia a linea di comando che consente di cercare rapidamente diversi tipi di messaggi nei file di log, tra cui ERROR, INFO, WARNING e DEBUG, oppure di cercare una stringa personalizzata.
+This Bash script is designed to analyze `.log` files present in a directory specified by the user. It provides a command-line interface that allows you to quickly search for various types of messages in log files, including ERROR, INFO, WARNING, and DEBUG, or search for a custom string.
 
-## Prerequisiti
+## Prerequisites
 
-- Sistema operativo Linux o macOS con supporto per Bash.
-- I file di log devono avere estensione `.log`.
+* Linux or macOS operating system with Bash support.
+* Log files must have the `.log` extension.
 
-## Come utilizzare
+## How to Use
 
-1. **Avvio dello script:**
-   - Esegui lo script con il comando:
+1. **Start the Script:**
+
+   * Run the script with the following command:
+
      ```bash
-     ./analizzatore_log.sh
+     ./log_analyzer.sh
      ```
 
-2. **Scegli una directory:**
-   - Lo script ti chiederà di inserire una directory contenente i file `.log` da analizzare.
+2. **Select a Directory:**
 
-3. **Seleziona un'opzione:**
-   - Dopo aver scelto la directory, verrà visualizzato un menu con le seguenti opzioni:
-     - **1**: Cerca tutte le righe con la parola `ERROR`.
-     - **2**: Cerca tutte le righe con la parola `INFO`.
-     - **3**: Cerca tutte le righe con la parola `WARNING`.
-     - **4**: Cerca tutte le righe con la parola `DEBUG`.
-     - **5**: Cerca una stringa personalizzata nei file di log.
-     - **6**: Esci dallo script.
+   * The script will prompt you to enter the directory containing the `.log` files to analyze.
 
-4. **Interfaccia di ricerca:**
-   - Dopo aver scelto un'opzione, lo script mostrerà i risultati di ricerca per ciascun file `.log` nella directory.
-   - Puoi anche inserire una stringa di ricerca personalizzata (opzione 5), per cercare un pattern specifico all'interno dei file.
+3. **Choose an Option:**
 
-5. **Uscita:**
-   - Puoi uscire dallo script in qualsiasi momento selezionando l'opzione **6**.
+   * After selecting the directory, a menu with the following options will be displayed:
 
-## Funzionalità e Colori
+     * **1**: Search for all lines containing the word `ERROR`.
+     * **2**: Search for all lines containing the word `INFO`.
+     * **3**: Search for all lines containing the word `WARNING`.
+     * **4**: Search for all lines containing the word `DEBUG`.
+     * **5**: Search for a custom string within the log files.
+     * **6**: Exit the script.
 
-Lo script usa colori per migliorare la leggibilità:
+4. **Search Interface:**
 
-- **Verde**: [OK] - Indica l'inizio di una ricerca.
-- **Rosso**: ERROR - Mostra i messaggi di errore.
-- **Ciano**: INFO - Mostra i messaggi di info.
-- **Giallo**: WARNING - Mostra i messaggi di avvertimento.
-- **Blu**: DEBUG - Mostra i messaggi di debug.
+   * After selecting an option, the script will display the search results for each `.log` file in the directory.
+   * You can also enter a custom search string (option 5) to search for a specific pattern within the files.
 
+5. **Exit:**
+
+   * You can exit the script at any time by selecting option **6**.
+
+## Features and Colors
+
+The script uses colors to improve readability:
+
+* **Green**: [OK] - Indicates the start of a search.
+* **Red**: ERROR - Displays error messages.
+* **Cyan**: INFO - Displays informational messages.
+* **Yellow**: WARNING - Displays warning messages.
+* **Blue**: DEBUG - Displays debug messages.
+
+---
